@@ -17,7 +17,7 @@
 .fit-image{
   width: 100%;
   object-fit: cover;
-  height: 515px; /* only if you want fixed height */
+  height: 515px; 
   }
 
 .big-font {
@@ -31,8 +31,6 @@
 }
 
 p {
-  /* margin-right: 100;
-  margin-left: 100; */
   text-align: left;
 }
 
@@ -53,37 +51,59 @@ body {
   border:1px solid black;
   box-shadow: 0 0 30px #719ECE;
   padding-left:10px;
+  height: 515px;
 }
 
 #sidetitle{
   text-align: center;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1117px) {
 
   #other_edu {
     display: none;
   }
-  .fit-image{
-    height: 475px; /* only if you want fixed height */
-    }
+}
 
-  #R {
-      display: none;
-    }
+@media (max-width: 975px) {
+
+  #baseball {
+    display: none;
+  }
 }
 
 @media (max-width: 950px) {
+
+  #Excel {
+    display: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .fit-image{
+    height: 540px; 
+    }
+  .sidetext {
+      height: 540px;
+    }
+}
+
+/* 
+@media (max-width: 950px) {
+
+  #R {
+    display: none;
+  }
 
   #hobbies {
     display: none;
   }
 
   .fit-image{
-    height: 455px; /* only if you want fixed height */
+    height: 455px; 
     }
 
   #D3 {
       display: none;
     }
-}
+} */
